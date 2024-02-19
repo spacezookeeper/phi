@@ -39,7 +39,8 @@ header {
     left: 0;
     width: 100%;
     z-index: 100;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
+    background-color: #000;
 }
 
 .navbar {
@@ -208,6 +209,7 @@ header {
     color: #ffffff;
     /* letter-spacing: 120px; */
     /* word-spacing: 50px; */
+    /* background-color: yellow; */
   }
 
 
@@ -237,7 +239,7 @@ header {
       .company-image img{
         position: absolute;
         bottom: 0;
-        height: 90%;
+        height: 85%;
     }
 }
 
@@ -719,6 +721,12 @@ header {
     background-size: cover;
     /* background-color: #000000; */
 }
+.sectors-column p{
+    padding: 0px 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px #000000;
+}
 
 @media(max-width: 992px){
     .sectors-column{
@@ -748,8 +756,8 @@ header {
     width: 100%;
     position: absolute;
     border-radius: 20px;
-    background-color: #00000094;
-    background-color: #ffffff50;
+    /* background-color: #00000094; */
+    background-color: #ffffff3e;
     /* z-index: 0; */
 }
 
@@ -1021,7 +1029,7 @@ header {
 }
 
 .sec-r-col-img:nth-child(1){
-    background-image: url(img/education\ research.jpg);
+    background-image: url(img/Tourism.jpg);
 }
 
 .sec-r-col-img:nth-child(2){
@@ -1132,8 +1140,11 @@ header {
 }
 
 .footer{
+    box-sizing: border-box;
     height: 100vh;
     width: 100%;
     background-color: #ffffff;
+    margin-top: 5rem;
+    padding-top: 2rem;
     
 }

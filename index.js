@@ -91,8 +91,8 @@ ScrollReveal().reveal('.company-image', { delay: 300, origin: 'bottom' });
 
 // nav bar 
 // ScrollReveal().reveal('.navbar', { delay: 600, origin: 'top' });
-ScrollReveal().reveal('.logo', { delay: 300, origin: 'left' });
-ScrollReveal().reveal('.links', { delay: 300, origin: 'right' });
+// ScrollReveal().reveal('.logo', { delay: 300, origin: 'left' });
+// ScrollReveal().reveal('.links', { delay: 300, origin: 'right' });
 
 
 
@@ -100,3 +100,12 @@ ScrollReveal().reveal('.links', { delay: 300, origin: 'right' });
 // to applay same animation
 // ScrollReveal().reveal('.sectors-title, .section-2-title', { delay: 500, origin: 'left' });
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
