@@ -96,8 +96,8 @@ ScrollReveal().reveal('.company-image', { delay: 300, origin: 'bottom' });
 // ------------
 ScrollReveal().reveal('.bg-img-container img', { delay: 100, origin: 'left' });
 ScrollReveal().reveal('.blur-blocks img', { delay: 300, origin: 'right' });
-ScrollReveal().reveal('.content-container img, .vission-mession-company-name', { delay: 300, origin: 'bottom' });
-ScrollReveal().reveal('.content-container .vission-mession-copy-right', { delay: 300, origin: 'bottom' });
+ScrollReveal().reveal('.content-container img, .vission-mission-company-name', { delay: 300, origin: 'bottom' });
+ScrollReveal().reveal('.content-container .vission-mission-copy-right', { delay: 300, origin: 'bottom' });
 
 //
 ScrollReveal().reveal('.vision-h1, .vision-p', { delay: 300, origin: 'right' });

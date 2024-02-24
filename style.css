@@ -365,14 +365,6 @@ header {
 .container-page-2{
     height: 100vh;
     width: 100%;
-    /* background-color: rgb(191, 34, 34); */
-    /* background-image: url(img/image-removebg-preview222.png); */
-    /* background-image: url(img/987225ca256713ea0144a5b9a87d5db0-removebg-preview.png); */
-    /* background-image: url(img/image-removebg-previewii.png); */
-    /* background-image: url(img/image-removebg-preview0987.png); */
-    /* background-image: url(img/933851e8e9b8965ae14827df6e7c924d-removebg-preview.png); */
-    /* background-repeat: no-repeat;
-    background-position: 100%; */
     position: relative;
     color: white;
 
@@ -390,8 +382,11 @@ header {
     right: 0;
 }
 
-.vission-mession-company-name{
-    color:#f34d33
+.vission-mission-company-name{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 6px;
+    color: #f34d33;
+    margin-bottom: 50px;
 }
 
 .content-container{
@@ -492,6 +487,10 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .vission-mession-company-name{
+        color: #f34d33;
     }
 
     .container-page-2 .blur-blocks img{
@@ -765,8 +764,9 @@ header {
 
 .sectors-title h1{
     letter-spacing: 6px;
-    color: #000000;
-    color: #fff;
+    color: #f34d33;
+    /* color: #000000; */
+    /* color: #fff; */
     text-transform: uppercase;
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
@@ -1311,12 +1311,16 @@ header {
     filter: brightness(0) invert(1);
 }
 
+.soc-icons{
+    margin-top: 10px;
+}
+
 .soc-icons i{
     color: #ffffff;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .soc-icons i:hover{
     color:#f34d33;
-    font-size: 2rem;
+    /* font-size: 2rem; */
 }
