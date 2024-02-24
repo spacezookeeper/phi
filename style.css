@@ -38,7 +38,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 200;
     padding: 0 1.5rem;
     /* background-color: #000; */
 }
@@ -379,6 +379,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .container-page-2 .blur-blocks img{
@@ -387,6 +388,10 @@ header {
     z-index: 100;
     top: 0;
     right: 0;
+}
+
+.vission-mession-company-name{
+    color:#f34d33
 }
 
 .content-container{
@@ -404,11 +409,21 @@ header {
     /* background-color: yellow; */
 }
 
+.content-container .vision{
+    margin-top: 30px;
+}
+
+.content-container .mission{
+    
+}
+
+
+
+
 .phi-icon{
-    /* position: absolute;
-    z-index: 0; */
-    height: 40%;
+    height: 30%;
     filter: brightness(0) invert(1);
+    margin-bottom: -40px;
 }
 
 .bg-img-container{
@@ -416,13 +431,20 @@ header {
     z-index: 0;
     height: 100%;
     width: 100%;
-    background-color: #000;
+    background-color: #000000;
     /* background-color: beige; */
     /* background: linear-gradient(60deg, rgba(0,0,0,1) 30%, rgba(4,42,125,1) 56%, rgba(13,172,227,1) 100%); */
 }
+/* /*  */
+.content-container sup{
+    font-family: 'News Cycle', sans-serif;
+} 
 
 .bg-img-container img{
-    width: 100%;
+    /* margin-left: -700px; */
+    height: 130%;
+    width: 130%;
+    filter: blur(3px);
 }
 
 .main-container-bg{
@@ -476,9 +498,9 @@ header {
         display: none;
     }
 
-    .bg-img-container img{
+    /* .bg-img-container img{
         display: none;
-    }
+    } */
 
     .bg-img-container img{
         transform: rotate(90deg);
@@ -1259,6 +1281,18 @@ header {
 
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
+    overflow: hidden;
+}
+
+/* .footer{
+    font-family: 'News Cycle', sans-serif;
+    
+} */
+
+.footer img{
+    height: 30%;
+    filter: brightness(0) invert(1);
 }
 

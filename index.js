@@ -93,8 +93,17 @@ ScrollReveal().reveal('.company-image', { delay: 300, origin: 'bottom' });
 // ScrollReveal().reveal('.navbar', { delay: 600, origin: 'top' });
 // ScrollReveal().reveal('.logo', { delay: 300, origin: 'left' });
 // ScrollReveal().reveal('.links', { delay: 300, origin: 'right' });
+// ------------
+ScrollReveal().reveal('.bg-img-container img', { delay: 100, origin: 'left' });
+ScrollReveal().reveal('.blur-blocks img', { delay: 300, origin: 'right' });
+ScrollReveal().reveal('.content-container img, .vission-mession-company-name', { delay: 300, origin: 'bottom' });
+ScrollReveal().reveal('.content-container .vission-mession-copy-right', { delay: 300, origin: 'bottom' });
 
+//
+ScrollReveal().reveal('.vision-h1, .vision-p', { delay: 300, origin: 'right' });
+ScrollReveal().reveal('.mission-h1, .mission-p', { delay: 300, origin: 'left' });
 
+// ScrollReveal().reveal('.main-container-bg', { delay: 300, origin: 'top' });
 
 // ScrollReveal().reveal('', { delay: 600, origin: 'bottom' });
 // to applay same animation
