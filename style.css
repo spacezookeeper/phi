@@ -57,8 +57,11 @@ header {
 
 .navbar a {
     text-decoration: none;
-    color: #000000;
     color :#ffffff
+}
+.navbar a:hover {
+    text-decoration: none;
+    color :#2c7de9;
 }
 
 .navbar .logo img{
@@ -70,6 +73,20 @@ header {
     display: flex;
     gap: 2rem;
     margin-right: 50px;
+}
+
+.navbar .links .applay-btn{
+    padding: 0px 50px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+.navbar .links .applay-btn:hover{
+    padding: 0px 50px;
+    border: 1px solid #2c7de9;
+    background-color: #2c7de9;
+    color: #ffffff;
+    border-radius: 20px;
 }
 
 .navbar .toggle_btn {
@@ -385,7 +402,7 @@ header {
 .vission-mission-company-name{
     font-family: 'Anton', sans-serif;
     letter-spacing: 6px;
-    color: #f34d33;
+    color: #2c7de9;
     margin-bottom: 50px;
 }
 
@@ -490,7 +507,7 @@ header {
     }
 
     .vission-mession-company-name{
-        color: #f34d33;
+        color: #2c7de9;
     }
 
     .container-page-2 .blur-blocks img{
@@ -764,8 +781,8 @@ header {
 
 .sectors-title h1{
     letter-spacing: 6px;
-    color: #f34d33;
-    /* color: #000000; */
+    /* color: #f34d33; */
+    color: #ffffff;
     /* color: #fff; */
     text-transform: uppercase;
     font-family: 'Anton', sans-serif;
@@ -1298,18 +1315,22 @@ header {
     justify-content: center;
     height: 50%;
     width: inherit;
+    
+    /* font-family: "Staatliches", sans-serif; */
     /* background-color: red; */
 }
 
 .main-footer-content img{
-    height: 60%;
-    filter: brightness(0) invert(1);
+    height: 40%;
+    /* filter: brightness(0) invert(1); */
 }
 
-.main-footer-content img{
-    height: 60%;
-    filter: brightness(0) invert(1);
+.main-footer-content p{
+    margin-top: 10px;
+    color: #bbbbbb;
+    font-family: 'News Cycle', sans-serif;
 }
+
 
 .soc-icons{
     margin-top: 10px;
@@ -1321,6 +1342,6 @@ header {
 }
 
 .soc-icons i:hover{
-    color:#f34d33;
+    color:#2c7de9;
     /* font-size: 2rem; */
 }
