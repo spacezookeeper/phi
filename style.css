@@ -456,7 +456,7 @@ header {
     /* margin-left: -700px; */
     height: 130%;
     width: 130%;
-    filter: blur(3px);
+    filter: blur(90px);
 }
 
 .main-container-bg{
@@ -511,6 +511,10 @@ header {
     }
 
     .container-page-2 .blur-blocks img{
+        display: none;
+    }
+
+    .bg-img-container img{
         display: none;
     }
 
